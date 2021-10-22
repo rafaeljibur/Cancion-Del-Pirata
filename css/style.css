@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #CCCCB2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #757519, #CCCCB2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #757519, #CCCCB2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#container {
+    background-image: url(../img/adventure-2528477_960_720.jpg);
+    background-position: left;
+    /* Estira la imagen de fondo */
+    background-size: cover;
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 1.5vw 1.5vw 10px #312316;
+    border-radius: 20px;
+}
+
+#container h2 {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+#poema {
+    background-color: white;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.301);
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
